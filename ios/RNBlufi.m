@@ -1,13 +1,16 @@
 
-#import "RNBlufi.h"
+#import "React/RCTBridgeModule.h"
+#import "React/RCTEventEmitter.h"
 
-@implementation RNBlufi
+@interface RCT_EXTERN_MODULE(RNBluFi, RCTEventEmitter)
+RCT_EXTERN_METHOD(setup)
+RCT_EXTERN_METHOD(inputData:(NSArray *)data)
+RCT_EXTERN_METHOD(negotiate: (RCTResponseSenderBlock)callback)
+RCT_EXTERN_METHOD(negotiate: (RCTPromiseResolveBlock)resolve
+                  rejecter: (RCTPromiseRejectBlock)reject)
 
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
-RCT_EXPORT_MODULE()
-
+RCT_EXTERN_METHOD(writeData: (NSArray *)data
+                  timeout: (NSInteger)timeout_sec
+                  resolver: (RCTPromiseResolveBlock)resolve
+                  rejecter: (RCTPromiseRejectBlock)reject)
 @end
-  

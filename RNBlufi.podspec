@@ -15,10 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.framework = "Foundation"
   s.dependency "React"
-  s.dependency "AwaitKit", "~> 5.0.0"
-  s.dependency "BigInt", "~> 3.1"
-  s.dependency "CryptoSwift", "0.11.0"
-  s.dependency "BluFi", "1.0.0"
+  s.dependency "BluFi", "1.0.1"
   #s.dependency "others"
 
 end
