@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = "RNBlufi"
+  s.name         = "RNBluFi"
   s.version      = "1.0.0"
   s.summary      = "RNBlufi"
   s.description  = "The ESP32 BluFi Library for iOS"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "Tuan PM" => "tuanpm@live.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/tuanpmt/react-native-blufi.git", :tag => s.version }
-  s.source_files  = "RNBlufi/**/*.{h,m}"
+  s.source_files  = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.ios.framework = "Foundation"

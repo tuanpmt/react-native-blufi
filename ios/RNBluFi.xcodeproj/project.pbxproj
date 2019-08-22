@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170235032302778300E6703E /* RNBluFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170235022302778300E6703E /* RNBluFi.swift */; };
-		B3E7B58A1CC2AC0600A0062D /* RNBlufi.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBlufi.m */; };
+		17CFF739230E37890064D9F2 /* RNBluFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFF737230E37880064D9F2 /* RNBluFi.m */; };
+		17CFF73A230E37890064D9F2 /* RNBluFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFF738230E37880064D9F2 /* RNBluFi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNBlufi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBlufi.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		170235012302778300E6703E /* RNBluFi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNBluFi-Bridging-Header.h"; sourceTree = "<group>"; };
-		170235022302778300E6703E /* RNBluFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBluFi.swift; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNBlufi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBlufi.m; sourceTree = "<group>"; };
+		134814201AA4EA6300B7C361 /* libRNBluFi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBluFi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CFF736230E37880064D9F2 /* RNBluFi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNBluFi-Bridging-Header.h"; sourceTree = "<group>"; };
+		17CFF737230E37880064D9F2 /* RNBluFi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBluFi.m; sourceTree = "<group>"; };
+		17CFF738230E37880064D9F2 /* RNBluFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBluFi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNBlufi.a */,
+				134814201AA4EA6300B7C361 /* libRNBluFi.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,9 +52,9 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				170235012302778300E6703E /* RNBluFi-Bridging-Header.h */,
-				170235022302778300E6703E /* RNBluFi.swift */,
-				B3E7B5891CC2AC0600A0062D /* RNBlufi.m */,
+				17CFF736230E37880064D9F2 /* RNBluFi-Bridging-Header.h */,
+				17CFF737230E37880064D9F2 /* RNBluFi.m */,
+				17CFF738230E37880064D9F2 /* RNBluFi.swift */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,9 +62,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNBlufi */ = {
+		58B511DA1A9E6C8500147676 /* RNBluFi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNBlufi" */;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNBluFi" */;
 			buildPhases = (
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
@@ -74,9 +74,9 @@
 			);
 			dependencies = (
 			);
-			name = RNBlufi;
+			name = RNBluFi;
 			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNBlufi.a */;
+			productReference = 134814201AA4EA6300B7C361 /* libRNBluFi.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNBlufi" */;
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNBluFi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNBlufi */,
+				58B511DA1A9E6C8500147676 /* RNBluFi */,
 			);
 		};
 /* End PBXProject section */
@@ -117,8 +117,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170235032302778300E6703E /* RNBluFi.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RNBlufi.m in Sources */,
+				17CFF73A230E37890064D9F2 /* RNBluFi.swift in Sources */,
+				17CFF739230E37890064D9F2 /* RNBluFi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +219,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNBlufi;
+				PRODUCT_NAME = RNBluFi;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNBlufi-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBluFi-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -240,9 +240,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNBlufi;
+				PRODUCT_NAME = RNBluFi;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNBlufi-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBluFi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -250,7 +250,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNBlufi" */ = {
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNBluFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
@@ -259,7 +259,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNBlufi" */ = {
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNBluFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58B511F01A9E6C8500147676 /* Debug */,

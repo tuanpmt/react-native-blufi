@@ -2,11 +2,12 @@
 //  RNBluFi.swift
 //  RNBluFi
 //
-//  Created by Tuan on 2/28/19.
+//  Created by Tuan PM on 2/28/19.
 //  Copyright © 2019 Facebook. All rights reserved.
 //
 
 import Foundation
+import BluFi
 
 @objc(RNBluFi)
 class RNBluFi: RCTEventEmitter {

@@ -2,7 +2,7 @@
 import { NativeModules, NativeEventEmitter } from 'react-native';
 
 const { RNBluFi } = NativeModules;
-
+console.log(NativeModules)
 RNBluFi.init = function(dataOutCallback) {
 	const RNBluFiEvents = new NativeEventEmitter(RNBluFi);
   if (RNBluFi.subscription) {
